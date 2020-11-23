@@ -6,11 +6,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#include "lessonOne.m"
+
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        // задание 1,2
+        taskOneTwo();
+
+        // задание 3
+        taskThree();
+        
+        
     }
     return 0;
 }
