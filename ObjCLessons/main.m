@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#include "lessonOne.m"
+#import "lessonOne.m"
 
 
 int main(int argc, const char * argv[]) {
