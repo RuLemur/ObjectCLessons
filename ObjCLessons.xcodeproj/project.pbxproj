@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A302671257559F9002BA886 /* lessonThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lessonThree.m; sourceTree = "<group>"; };
 		1A5C6285256C15A200ADE38B /* ObjCLessons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjCLessons; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A5C6288256C15A200ADE38B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1A5C6290256C2DA800ADE38B /* lessonOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lessonOne.m; sourceTree = "<group>"; };
@@ -62,6 +63,7 @@
 				1A5C6288256C15A200ADE38B /* main.m */,
 				1A5C6290256C2DA800ADE38B /* lessonOne.m */,
 				1AE109D9257023AA0020D4A3 /* lessonTwo.m */,
+				1A302671257559F9002BA886 /* lessonThree.m */,
 			);
 			path = ObjCLessons;
 			sourceTree = "<group>";
