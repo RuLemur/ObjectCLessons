@@ -7,8 +7,8 @@
 
 #import <Foundation/Foundation.h>
 //#import "lessonOne.m"
-#import "lessonTwo.m"
-
+//#import "lessonTwo.m"
+#import "lessonThree.m"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -20,6 +20,7 @@ int main(int argc, const char * argv[]) {
         */
         
         // Урок 2
+        /*
         // задание 1
         BOOL result = isInAlphabet('A');
         NSLog(result ? @"Yes" : @"No");
@@ -30,6 +31,18 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%d", calculate(@"*", 3, 4));
         NSLog(@"%d", calculate(@"/", 9, 4));
         NSLog(@"%d", calculate(@"%", 9, 4));
+        */
+        
+        //Урок 3
+        // задание 1
+        taskOne();
+        
+        // задание 2
+        enum CalculateOperation calculateOperation = Minus;
+        NSLog(@"%d", taskTwo(calculateOperation, 3, 4));
+        
+        // задание 3
+        taskThree();
     }
     return 0;
 }
