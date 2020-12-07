@@ -11,6 +11,7 @@ void taskOne(){
     
     char str[255];
     NSLog(@"Введите 0 для завершения");
+    NSMutableArray *arr = [NSMutableArray array];
     while (true) {
 
         scanf("%s", str);
@@ -18,8 +19,13 @@ void taskOne(){
         if ([out  isEqual: @"0"]){
             break;
         }
-        NSLog(@"%@",out);
+        [arr addObject:out];
     }
+    NSLog(@"Values: ");
+    for (NSString *arrString in arr) {
+        NSLog(@"%@", arrString);
+    }
+    
 }
 
 enum CalculateOperation {
@@ -44,10 +50,10 @@ int taskTwo(enum CalculateOperation operation, int a, int b) {
             return a * b;
             break;
         case Divide:
-            return a * b;
+            return a / b;
             break;
         case Rest:
-            return a * b;
+            return a % b;
             break;
         default:
             NSLog(@"Функция не знает переданный метод");
