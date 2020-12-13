@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1A5C6289256C15A200ADE38B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5C6288256C15A200ADE38B /* main.m */; };
-		1A72B8192579956300F2F9D0 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A72B81225798FBF00F2F9D0 /* Student.m */; };
-		1A72B81E257996AF00F2F9D0 /* DancingStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A72B81D257996AF00F2F9D0 /* DancingStudent.m */; };
-		1A72B82225799A6D00F2F9D0 /* MathStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A72B82125799A6D00F2F9D0 /* MathStudent.m */; };
+		1AACAC332586BDEB0092F2E5 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AACAC322586BDEB0092F2E5 /* Calculator.m */; };
+		1AACAC372586C4000092F2E5 /* FlockOfBirds.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AACAC362586C4000092F2E5 /* FlockOfBirds.m */; };
+		1AACAC3B2586C4510092F2E5 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AACAC3A2586C4510092F2E5 /* Bird.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +36,12 @@
 		1A72B81D257996AF00F2F9D0 /* DancingStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DancingStudent.m; sourceTree = "<group>"; };
 		1A72B82025799A6D00F2F9D0 /* MathStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathStudent.h; sourceTree = "<group>"; };
 		1A72B82125799A6D00F2F9D0 /* MathStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathStudent.m; sourceTree = "<group>"; };
+		1AACAC312586BDEB0092F2E5 /* Calculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		1AACAC322586BDEB0092F2E5 /* Calculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		1AACAC352586C4000092F2E5 /* FlockOfBirds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlockOfBirds.h; sourceTree = "<group>"; };
+		1AACAC362586C4000092F2E5 /* FlockOfBirds.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlockOfBirds.m; sourceTree = "<group>"; };
+		1AACAC392586C4510092F2E5 /* Bird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		1AACAC3A2586C4510092F2E5 /* Bird.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
 		1AE109D9257023AA0020D4A3 /* lessonTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lessonTwo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +75,7 @@
 		1A5C6287256C15A200ADE38B /* ObjCLessons */ = {
 			isa = PBXGroup;
 			children = (
+				1AACAC2A2586BAD70092F2E5 /* lesson5 */,
 				1A72B81025798F8900F2F9D0 /* lesson4 */,
 				1A5C6288256C15A200ADE38B /* main.m */,
 				1A5C6290256C2DA800ADE38B /* lessonOne.m */,
@@ -89,6 +96,19 @@
 				1A72B82125799A6D00F2F9D0 /* MathStudent.m */,
 			);
 			path = lesson4;
+			sourceTree = "<group>";
+		};
+		1AACAC2A2586BAD70092F2E5 /* lesson5 */ = {
+			isa = PBXGroup;
+			children = (
+				1AACAC312586BDEB0092F2E5 /* Calculator.h */,
+				1AACAC322586BDEB0092F2E5 /* Calculator.m */,
+				1AACAC352586C4000092F2E5 /* FlockOfBirds.h */,
+				1AACAC362586C4000092F2E5 /* FlockOfBirds.m */,
+				1AACAC392586C4510092F2E5 /* Bird.h */,
+				1AACAC3A2586C4510092F2E5 /* Bird.m */,
+			);
+			path = lesson5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,10 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A72B8192579956300F2F9D0 /* Student.m in Sources */,
-				1A72B82225799A6D00F2F9D0 /* MathStudent.m in Sources */,
-				1A72B81E257996AF00F2F9D0 /* DancingStudent.m in Sources */,
+				1AACAC3B2586C4510092F2E5 /* Bird.m in Sources */,
 				1A5C6289256C15A200ADE38B /* main.m in Sources */,
+				1AACAC372586C4000092F2E5 /* FlockOfBirds.m in Sources */,
+				1AACAC332586BDEB0092F2E5 /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +186,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -225,7 +245,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
