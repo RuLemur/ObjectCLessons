@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1A5C6289256C15A200ADE38B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5C6288256C15A200ADE38B /* main.m */; };
+		1A72B8192579956300F2F9D0 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A72B81225798FBF00F2F9D0 /* Student.m */; };
+		1A72B81E257996AF00F2F9D0 /* DancingStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A72B81D257996AF00F2F9D0 /* DancingStudent.m */; };
+		1A72B82225799A6D00F2F9D0 /* MathStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A72B82125799A6D00F2F9D0 /* MathStudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +30,12 @@
 		1A5C6285256C15A200ADE38B /* ObjCLessons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjCLessons; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A5C6288256C15A200ADE38B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1A5C6290256C2DA800ADE38B /* lessonOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lessonOne.m; sourceTree = "<group>"; };
+		1A72B81125798FBF00F2F9D0 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		1A72B81225798FBF00F2F9D0 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		1A72B81C257996AF00F2F9D0 /* DancingStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DancingStudent.h; sourceTree = "<group>"; };
+		1A72B81D257996AF00F2F9D0 /* DancingStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DancingStudent.m; sourceTree = "<group>"; };
+		1A72B82025799A6D00F2F9D0 /* MathStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathStudent.h; sourceTree = "<group>"; };
+		1A72B82125799A6D00F2F9D0 /* MathStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathStudent.m; sourceTree = "<group>"; };
 		1AE109D9257023AA0020D4A3 /* lessonTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lessonTwo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,12 +69,26 @@
 		1A5C6287256C15A200ADE38B /* ObjCLessons */ = {
 			isa = PBXGroup;
 			children = (
+				1A72B81025798F8900F2F9D0 /* lesson4 */,
 				1A5C6288256C15A200ADE38B /* main.m */,
 				1A5C6290256C2DA800ADE38B /* lessonOne.m */,
 				1AE109D9257023AA0020D4A3 /* lessonTwo.m */,
 				1A302671257559F9002BA886 /* lessonThree.m */,
 			);
 			path = ObjCLessons;
+			sourceTree = "<group>";
+		};
+		1A72B81025798F8900F2F9D0 /* lesson4 */ = {
+			isa = PBXGroup;
+			children = (
+				1A72B81125798FBF00F2F9D0 /* Student.h */,
+				1A72B81225798FBF00F2F9D0 /* Student.m */,
+				1A72B81C257996AF00F2F9D0 /* DancingStudent.h */,
+				1A72B81D257996AF00F2F9D0 /* DancingStudent.m */,
+				1A72B82025799A6D00F2F9D0 /* MathStudent.h */,
+				1A72B82125799A6D00F2F9D0 /* MathStudent.m */,
+			);
+			path = lesson4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A72B8192579956300F2F9D0 /* Student.m in Sources */,
+				1A72B82225799A6D00F2F9D0 /* MathStudent.m in Sources */,
+				1A72B81E257996AF00F2F9D0 /* DancingStudent.m in Sources */,
 				1A5C6289256C15A200ADE38B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

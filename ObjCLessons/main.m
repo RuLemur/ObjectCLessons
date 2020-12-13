@@ -8,7 +8,10 @@
 #import <Foundation/Foundation.h>
 //#import "lessonOne.m"
 //#import "lessonTwo.m"
-#import "lessonThree.m"
+//#import "lessonThree.m"
+#import "Student.h"
+#import "DancingStudent.h"
+#import "MathStudent.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -34,6 +37,7 @@ int main(int argc, const char * argv[]) {
         */
         
         //Урок 3
+        /*
         // задание 1
         taskOne();
         
@@ -43,6 +47,30 @@ int main(int argc, const char * argv[]) {
         
         // задание 3
         taskThree();
+         */
+        
+        //Урок 4
+        // задание 1
+        Student *stud = [[Student alloc] initStudent:@"Vano" surname:@"Escalibur"];
+        Student *stud_2 = [[Student alloc] initStudent:@"Igor" surname:@"Vasechkin"];
+        NSLog(@"1: %@ %@", stud.name, stud.surname);
+        NSLog(@"2: %@ %@", stud_2.name, stud_2.surname);
+        NSLog(@"--------------------------------------------------------");
+        
+        // задание 2
+        DancingStudent *danceStudent = [[DancingStudent alloc] initStudent:@"Vovka" surname:@"Tututu"];
+        [danceStudent setDanceStyle:@"Kalinka"]; //Полиморфизм
+        NSLog(@"DanceStudent: %@ %@", danceStudent.name, danceStudent.surname);
+        [danceStudent dance];
+        [danceStudent calculate:@3 second:@20];
+        NSLog(@"--------------------------------------------------------");
+       
+        MathStudent *mathStudent = [[MathStudent alloc] initStudent:@"Samiy" surname:@"Umniy"];
+        NSLog(@"MathStudent: %@ %@", mathStudent.name, mathStudent.surname);
+        [mathStudent dance];
+        [mathStudent calculate:@3 second:@20];
+       
+        
     }
     return 0;
 }
