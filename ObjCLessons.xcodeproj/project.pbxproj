@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1A5C6289256C15A200ADE38B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5C6288256C15A200ADE38B /* main.m */; };
-		1AACAC332586BDEB0092F2E5 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AACAC322586BDEB0092F2E5 /* Calculator.m */; };
-		1AACAC372586C4000092F2E5 /* FlockOfBirds.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AACAC362586C4000092F2E5 /* FlockOfBirds.m */; };
-		1AACAC3B2586C4510092F2E5 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AACAC3A2586C4510092F2E5 /* Bird.m */; };
+		1AACAC432586F17A0092F2E5 /* CoffeeMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AACAC422586F17A0092F2E5 /* CoffeeMachine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,7 +40,10 @@
 		1AACAC362586C4000092F2E5 /* FlockOfBirds.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlockOfBirds.m; sourceTree = "<group>"; };
 		1AACAC392586C4510092F2E5 /* Bird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
 		1AACAC3A2586C4510092F2E5 /* Bird.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
+		1AACAC412586F17A0092F2E5 /* CoffeeMachine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoffeeMachine.h; sourceTree = "<group>"; };
+		1AACAC422586F17A0092F2E5 /* CoffeeMachine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeMachine.m; sourceTree = "<group>"; };
 		1AE109D9257023AA0020D4A3 /* lessonTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lessonTwo.m; sourceTree = "<group>"; };
+		1AEC96B42587046700CD7A84 /* lessonFour.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lessonFour.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,8 @@
 		1A5C6287256C15A200ADE38B /* ObjCLessons */ = {
 			isa = PBXGroup;
 			children = (
+				1AEC96B42587046700CD7A84 /* lessonFour.m */,
+				1AACAC402586F09E0092F2E5 /* lesson6 */,
 				1AACAC2A2586BAD70092F2E5 /* lesson5 */,
 				1A72B81025798F8900F2F9D0 /* lesson4 */,
 				1A5C6288256C15A200ADE38B /* main.m */,
@@ -109,6 +112,15 @@
 				1AACAC3A2586C4510092F2E5 /* Bird.m */,
 			);
 			path = lesson5;
+			sourceTree = "<group>";
+		};
+		1AACAC402586F09E0092F2E5 /* lesson6 */ = {
+			isa = PBXGroup;
+			children = (
+				1AACAC412586F17A0092F2E5 /* CoffeeMachine.h */,
+				1AACAC422586F17A0092F2E5 /* CoffeeMachine.m */,
+			);
+			path = lesson6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,10 +179,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AACAC3B2586C4510092F2E5 /* Bird.m in Sources */,
 				1A5C6289256C15A200ADE38B /* main.m in Sources */,
-				1AACAC372586C4000092F2E5 /* FlockOfBirds.m in Sources */,
-				1AACAC332586BDEB0092F2E5 /* Calculator.m in Sources */,
+				1AACAC432586F17A0092F2E5 /* CoffeeMachine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +196,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -245,7 +255,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;

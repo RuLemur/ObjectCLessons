@@ -12,15 +12,20 @@
 //#import "Student.h"
 //#import "DancingStudent.h"
 //#import "MathStudent.h"
-#import "Calculator.h"
-#import "FlockOfBirds.h"
-#import "Bird.h"
+//#import "Calculator.h"
+//#import "FlockOfBirds.h"
+//#import "Bird.h"
+#import "lessonFour.m"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
 
+        //Урок 6
+        //Задание 1,2
+        taskOneTwo();
+
+        /*
         //Урок 5
-        
         //задание 1
         NSLog(@"----------------------TASK-1-------------------------");
         Calculator *calculator = [[Calculator alloc] init];
@@ -45,7 +50,7 @@ int main(int argc, const char * argv[]) {
         
         [flock flyAway:flockName birds:birds];
         [flock release];
-        
+        */
         /*
         //Урок 4
         // задание 1
